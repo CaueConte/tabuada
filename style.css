@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: rgb(88, 88, 88);
+    font-size: 20px;
+}
+
+select#tabuada{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    font-size: 20px;
+}
+a{
+    color: rgb(54, 185, 245);
+    font-style: italic;
+}
+#botao{
+    font-size: 16px;
+    border-radius: 10%;
+}
+select {
+    overflow-y: auto;
+}
