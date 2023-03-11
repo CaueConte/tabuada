@@ -5,11 +5,11 @@ function calcular(){
 
     resposta2.innerHTML = '';
     while(y <= 10){
+        var multi = num * y;
         let item = document.createElement('option');
         item.text = `${num} * ${y} = ${multi}`;
         item.value = `tab${y}`;
         resposta2.appendChild(item);
         y = y + 1;
-        var multi = num * y;
     }
 }
